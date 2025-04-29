@@ -72,15 +72,10 @@ post:
 # Date time format.
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
 
-month_names: [Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь]
-month_abbrs: [янв, фев, мар, апр, май, июн, июл, авг, сен, окт, ноя, дек]
-day_names: [Воскресенье, Понедельник, Вторник, Среда, Четверг, Пятница, Суббота]
-day_abbrs: [вс, пн, вт, ср, чт, пт, сб]
-
 df:
   post:
     strftime: "%e %b, %Y"
-    dayjs: "ll"
+    dayjs: "lll"
   archives:
     strftime: "%b"
     dayjs: "MMM"
