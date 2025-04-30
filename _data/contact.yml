@@ -1,4 +1,8 @@
 #  The contact options.
+- type: telegram
+  icon: "fab fa-telegram"
+  url: https://t.me/raidein_tech
+  noblank: false
 
 - type: github
   icon: "fab fa-github"
